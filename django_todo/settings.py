@@ -26,7 +26,7 @@ SECRET_KEY = '1%-aa_v$h=-o51&y8yz$#w1k!26l8d7_63)qfeb4z3d(5ouxgh'
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
-                os.environ.get('HOTSNAME')]
+                os.environ.get('HOSTNAME')]
 
 host = os.environ.get('SITE HOST')
 if host:
